@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>一起干饭吧！</title>
+    <link rel="stylesheet" href="./link.css" />
+</head>
+
+<body>
+	<p id = "timer"></p>
+	<div id = "timer1">
+    <div class="header">
+        <div class="header-top">
+            <div class="container">
+                <ul class="header__info fr">
+                <li><button type = "button" onclick = "xianshi()">登陆/注册</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container header-bottom clear">
+            <p class="logo">干饭人！</p> 
+            <ul class="nav fl clear">
+                <li class="first"><a href="#">首页</a></li>
+                <li><a href="#">快餐</a></li>
+                <li><a href="#">家常菜</a></li>
+                <li><a href="#">主食</a></li>
+                <li class="last"><a href="#">饮品及零食</a></li>
+            </ul>
+            <form class="form clear fr">
+                <input type="text" placeholder="请输入要查找的内容" class="search" />
+                <input type="button" class="submit" />
+            </form>
+        </div>
+    </div>
+    <div class="banner clear">
+    	<div id = "one-left" class = "clear">
+    		<input id = "pre" class = "button1" type = "button" /><b><</b>
+    	</div>
+        <div class="container imgBox clear" id = "imgBox">
+            <ul>
+                <li class="banner-item" id = "item1">
+                    <img id = "img-slide" src="./images/banner1.jpg" alt=""  />
+                </li>
+                <li class="banner-item" id = "item2">
+                    <img id = "img-slide" display = "none" src="./images/banner2.jpg" alt=""  />
+                </li>
+                <li class="banner-item" id = "itme3">
+                    <img id = "img-slide" display = "none" src="./images/banner3.jpg" alt=""  />
+                </li>
+            </ul>
+            <ul class="c1">
+                <li><a href="#">店内环境></a></li>
+                <li><a href="#">红包特惠></a></li>
+                <li><a href="#">美食上新></a></li>
+                <li><a href="#">会员专享></a></li>
+                <li><a href="#">外卖配送></a></li>
+            </ul>
+        </div>
+        <div id = "one-right" class = "clear">
+        	<input id = "next" class = "button1" type = "button" /><b>></b>
+        </div>	
+    </div>
+    <div class="container clear product">
+        <div class="product1">
+            <div class="c2">
+                <ul>
+                    <li class="big"><a href="#">新菜品推荐</a></li>
+                    <li class="small"><a href="#">查看全部</a></li>
+                </ul>
+            </div>
+            <ul>
+                <li class="left"><img src="./images/1.jpg" alt="" width="230" height="200"/></li>
+                <li><img src="./images/2.jpg" alt="" width="230" height="200"/></li>
+                <li><img src="./images/3.jpg" alt="" width="230" height="200"/></li>
+                <li><img src="./images/4.jpg" alt="" width="230" height="200"/></li>
+                <li><img src="./images/5.jpg" alt="" width="230" height="200"/></li>
+                </ul>
+            </div>
+            <div class="passage">
+                <ul>
+                <li class="first1">
+                    <p><span class="b1">麻辣小龙虾</span></p>
+                    <p class="b4"><span class="b2">售价</span><span class="b3"> ￥70.8</span></p>
+                </li>
+                <li>
+                    <p><span class="b1">鲜炒大盘鸡（小份微辣）</span></p>
+                    <p class="b4"><span class="b2">售价</span><span class="b3">￥42</span></p>
+                </li>
+                <li>
+                    <p><span class="b1">老坛酸菜鱼（单人份套餐）</span></p>
+                    <p class="b4"><span class="b2">售价</span><span class="b3"> ￥32.9</span></p>
+                </li>
+                <li>
+                    <p><span class="b1">鱼香肉丝盖饭（单人）</span></p>
+                    <p class="b4"><span class="b2">售价</span><span class="b3"> ￥18.42</span></p>
+                </li>
+                <li>
+                    <p><span class="b1">毛血旺套餐</span></p>
+                    <p class="b4"><span class="b2">售价</span><span class="b3"> • ￥40.9</span></p>
+                </li>
+            </ul>
+            </div>
+        <ul class="product-big fl clear">
+            <li class="product-item">
+                <img src="./images/11.jpg" alt=""  width="480" height="480" />
+                <div class="product-info">
+                    <h3>披萨</h3>
+                    <p>￥104/2人份</p>
+                </div>
+            </li>
+        </ul>
+        <ul class="product-small fr clear">
+            <li class="product-item">
+                <img src="./images/22.jpg" alt="" width="330" height="230" />
+                <div class="product-info">
+                    <h3>脆皮炸鸡*2</h3>
+                    <p>￥37.7/2人份</p>
+                </div>
+            </li>
+            <li class="product-item">
+                <img src="./images/33.jpg" alt="" width="330" height="230" />
+                <div class="product-info">
+                    <h3>黑森林蛋糕</h3>
+                    <p>￥25/人</p>
+                </div>
+            </li>
+            <li class="product-item">
+                <img src="./images/44.jpg" alt="" width="330" height="230" />
+                <div class="product-info">
+                    <h3>薯条</h3>
+                    <p>￥10/人</p>
+                </div>
+            </li>
+            <li class="product-item">
+                <img src="./images/55.jpg" alt="" width="330" height="230s" />
+                <div class="product-info">
+                    <h3>冰激凌</h3>
+                    <p>￥14/人</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        <h4>更多消息抢先看</h4>
+        <ul class="clear">
+            <li><a href="#">新品上市</a></li>
+            <li><a href="#">优惠促销</a></li>
+            <li><a href="#">会员专享</a></li>
+            <li><a href="#">新手福利</a></li>
+            <li class="last"><a href="#">礼品赠送</a></li>
+        </ul>
+        <h4>扫码关注关注我们</h4>
+        <ul class="clear">
+            <img src="./images/111.jpg" alt="" width="100" height="100" />
+        </ul>
+        <p>© 2020-2050 一起干饭 版权所有，并保留所有权利。冀ICP备11111111号-2</p>
+    </div>
+	</div>
+	<div id = "yincang" class = "clear">
+        <div class = "q1">
+			<form class = "m1">
+				<div class = "q3">
+					<p class = "q5 z1">用&nbsp;户&nbsp;名&nbsp;</p>
+				</div>
+				<input class = "m5 m7" type = "text" onblur="blurEventFunc1()" onfocus="inputFocus1()" name = "用户名"/>
+				<p class = "n1"></p>
+			</form>
+			<form class = "m2">
+				<div class = "q4">
+					<p class = "q5 q6">设置密码&nbsp;</p>
+				</div>
+				<input class = "m5 m7" type = "password" onblur="blurEventFunc2()" onfocus="inputFocus2()" name = "设置密码" />
+				<p class = "n2"></p>
+			</form>
+			<form class = "m3">
+				<button class = "m4 m5" type = "button" onclick = "tell();tell1()">立即注册</button>
+			</form>
+		</div>
+		<div class = "q2">
+			<p class = "p1"></p>
+			<p class = "p2"></p>
+			<p class = "p3"></p>
+		</div>
+    </div>
+</body>
+<script>
+	function time(){
+		document.getElementById("timer1").style.display = "none";
+		var timer = document.getElementById("timer"); 
+		var num = 5;
+		var str = "";
+		var setIntervalId = setInterval(function(){
+			str = "还有" + num + "秒进入干饭人时间";
+			if(num == 0)
+			{
+				clearInterval(setIntervalId);
+				document.getElementById("timer1").style.display = "block";
+				document.getElementById("timer").style.display = "none";
+			}
+			timer.innerHTML = str;
+			num = num - 1;
+		}
+		,1000);
+	}
+	time();
+
+	var newp1;
+	var newp2;
+	var name1;
+	var name2;
+	var item1 = document.getElementById("item1");
+	var item2 = document.getElementById("item2");
+	var item3 = document.getElementById("item3");
+	var pre = document.getElementById("pre");
+	var next = document.getElementById("next");
+	var num = 3;
+
+	document.getElementById("yincang").style.display = "none";
+	
+	function xianshi(){
+		document.getElementById("yincang").style.display = "block";
+		document.getElementById("timer1").style.display = "none";
+
+	}
+
+	function inputFocus1(){
+		newp1 = document.getElementsByClassName("n1")[0];
+		newp1.innerHTML = "支持中文数字";
+	}
+
+	function blurEventFunc1(){
+		name1 = document.getElementsByTagName("input")[0];
+		if(name1.value == ""){
+			newp1 = document.getElementsByClassName("n1")[0];
+			newp1.innerHTML = "用户名不能为空";
+		}
+	}
+
+	function inputFocus2(){
+		newp2 = document.getElementsByClassName("n2")[0];
+		newp2.innerHTML = "建议至少使用两种字符组合";
+	}
+
+	function blurEventFunc2(){
+		name2 = document.getElementsByTagName("input")[1];
+		if(name2.value == ""){
+			newp2 = document.getElementsByClassName("n2")[0];
+			newp2.innerHTML = "密码不能为空";
+		}
+	}
+
+	function tell(){
+		var name3 = document.getElementsByClassName("p1")[0];
+		var name4 = document.getElementsByClassName("p2")[0];
+		var name5 = document.getElementsByClassName("p3")[0];
+		name3.innerHTML = "注册成功！";
+		name4.innerHTML = "用户名：" + name1.value;
+		name5.innerHTML = "密码：" + name2.value;	
+	}
+
+	function tell1(){
+		document.getElementById("yincang").style.display = "none";
+		document.getElementById("timer1").style.display = "block";
+	}
+
+	function judgment(){
+      	if(num == 1){
+          	item1.style.display = "block";
+          	item2.style.display = "none";
+          	item3.style.display = "none";
+    	}
+   		if(num == 2){
+          	item1.style.display = "none";
+          	item2.style.display = "block";
+          	item3.style.display = "none";
+    	}
+    	if(num == 3){
+          	item1.style.display = "none";
+          	item2.style.display = "none";
+          	item3.style.display = "block";
+      	}
+	}
+
+	pre.onclick = function(){   
+      num--;
+      if(num < 1){
+      	num = 3;
+      }
+      judgment();
+  	}
+
+   	next.onclick = function(){
+        num++;
+        if(num > 3){
+        	num = 1;
+        }
+        judgment();    
+  	}
+</script>
+</html>
